@@ -6,9 +6,9 @@ def home(request):
     return render(request, 'recipes/home.html')
 
 
-def milena(request):
-    return HttpResponse('hi, my name is nena')
+def vegetarian(request):
+    return render(request, 'recipes/vegetarian.html')
 
 
-def matheus(request):
+def carnivore(request):
     return HttpResponse('chumbreksbreibol')

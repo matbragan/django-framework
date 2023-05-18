@@ -1,9 +1,9 @@
 from django.urls import path
 
-from recipes.views import home, matheus, milena
+from recipes.views import carnivore, home, vegetarian
 
 urlpatterns = [
     path('', home),
-    path('milena/', milena),
-    path('matheus/', matheus)
+    path('vegetarian/', vegetarian),
+    path('carnivore/', carnivore)
 ]
